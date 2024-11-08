@@ -108,7 +108,7 @@ GROUP BY customer_id, product_name;  -- If the product was ordered twice, GROUP 
 ### Q4. What is the most purchased item on the menu and how many times was it purchased by all customers?
 ```SQL
 SELECT 
-	menu.product_name,
+    menu.product_name,
     COUNT(sales.order_date) AS quantity_sold
 FROM menu
 JOIN sales 
@@ -139,7 +139,7 @@ JOIN menu
 GROUP BY sales.customer_id, menu.product_name
 )
 SELECT 
-	customer_id,
+    customer_id,
     product_name,
     quantity_sold
 FROM cte
@@ -193,10 +193,10 @@ WHERE rnk = 1;
 WITH cte AS (
   SELECT 
 	sales.customer_id,
-    members.join_date,
-    sales.order_date,
-    sales.product_id,
-    menu.product_name,
+    	members.join_date,
+    	sales.order_date,
+    	sales.product_id,
+    	menu.product_name,
   	DENSE_RANK() OVER (PARTITION BY sales.customer_id ORDER BY sales.order_date DESC)
   		AS order_date_rank
 FROM sales
@@ -208,9 +208,9 @@ WHERE sales.order_date < members.join_date
   )
 SELECT 
 	customer_id,
-    join_date,
-    product_name,
-    order_date
+    	join_date,
+    	product_name,
+    	order_date
 FROM cte
 WHERE order_date_rank = 1;
 ```  
@@ -227,11 +227,11 @@ WHERE order_date_rank = 1;
 ```TSQL
 SELECT
 	members.customer_id,
-    COUNT(sales.product_id) AS total_items,
-    SUM(menu.price) AS total_spend
+    	COUNT(sales.product_id) AS total_items,
+    	SUM(menu.price) AS total_spend
 FROM members
 LEFT JOIN sales
-	ON	members.customer_id = sales.customer_id
+	ON members.customer_id = sales.customer_id
 LEFT JOIN menu
 	ON sales.product_id = menu.product_id
 WHERE sales.order_date < members.join_date
@@ -250,11 +250,11 @@ Note: Customers earn points when they make purchases only after they become memb
 ```TSQL
 WITH customer_points AS (
 	SELECT
-		sales.customer_id,
-    	sales.order_date,
-    	menu.product_name,
-    	menu.price,
-    	(CASE
+	 sales.customer_id,
+    	 sales.order_date,
+    	 menu.product_name,
+    	 menu.price,
+    	 (CASE
     		WHEN sales.customer_id IN (SELECT customer_id FROM members) AND menu.product_name = 'sushi' THEN 2 * menu.price * 10
      		WHEN sales.customer_id IN (SELECT customer_id FROM members) AND menu.product_name != 'sushi' THEN 1 * menu.price * 10
         	ELSE 0
