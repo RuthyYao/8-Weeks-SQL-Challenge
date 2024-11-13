@@ -15,7 +15,7 @@ Foodie-Fi started the video streaming service that only had food related content
 ---
 ## Entity Relationship Diagram
 <p align="center">
-<img src="https://github.com/qanhnn12/8-Week-SQL-Challenge/blob/main/IMG/e3.PNG" align="center" width="500" height="250" >
+<img src="https://github.com/RuthyYao/8-Weeks-SQL-Challenge/blob/main/images/case-study-3-erd.png" align="center" width="500" height="250" >
 
 ---
 ## Case Study Questions
@@ -49,7 +49,6 @@ View my solution [HERE](https://github.com/RuthyYao/8-Weeks-SQL-Challenge/blob/m
 
 ---
 ### B. Data Analysis Questions
-View my solution [HERE](https://github.com/qanhnn12/8-Week-SQL-Challenge/blob/main/Case%20Study%20%233%20-%20Foodie-Fi/Solution/B.%20Data%20Analysis%20Questions.md).
 
 1. How many customers has Foodie-Fi ever had?
 2. What is the monthly distribution of trial plan start_date values for our dataset - use the start of the month as the group by value
@@ -63,9 +62,10 @@ View my solution [HERE](https://github.com/qanhnn12/8-Week-SQL-Challenge/blob/ma
 10. Can you further breakdown this average value into 30 day periods (i.e. 0-30 days, 31-60 days etc)
 11. How many customers downgraded from a pro monthly to a basic monthly plan in 2020?
 
+View my solution [HERE](https://github.com/RuthyYao/8-Weeks-SQL-Challenge/blob/main/Case%20Study%20%233%20Foodie%20Fi/Solutions/B.%20Data%20Analysis%20Questions.md).
+
 ---
 ### C. Challenge Payment Question
-View my solution [HERE](https://github.com/qanhnn12/8-Week-SQL-Challenge/blob/main/Case%20Study%20%233%20-%20Foodie-Fi/Solution/C.%20Challenge%20Payment%20Question.md).
 
 The Foodie-Fi team wants to create a new payments table for the year 2020 that includes amounts paid by each customer in the subscriptions table with the following requirements:
   * monthly payments always occur on the same day of month as the original start_date of any monthly paid plan
@@ -73,9 +73,10 @@ The Foodie-Fi team wants to create a new payments table for the year 2020 that i
   * upgrades from pro monthly to pro annual are paid at the end of the current billing period and also starts at the end of the month period
   * once a customer churns they will no longer make payments
 
+View my solution [HERE](https://github.com/RuthyYao/8-Weeks-SQL-Challenge/blob/main/Case%20Study%20%233%20Foodie%20Fi/Solutions/C.%20Challenge%20Payment%20Question.md).
+
 ---
 ### D. Outside The Box Questions 
-View my solution [HERE](https://github.com/qanhnn12/8-Week-SQL-Challenge/blob/main/Case%20Study%20%233%20-%20Foodie-Fi/Solution/D.%20Outside%20The%20Box%20Questions.md).
 
 1. How would you calculate the rate of growth for Foodie-Fi?
 2. What key metrics would you recommend Foodie-Fi management to track over time to assess performance of their overall business?
@@ -83,7 +84,9 @@ View my solution [HERE](https://github.com/qanhnn12/8-Week-SQL-Challenge/blob/ma
 4. If the Foodie-Fi team were to create an exit survey shown to customers who wish to cancel their subscription, what questions would you include in the survey?
 5. What business levers could the Foodie-Fi team use to reduce the customer churn rate? How would you validate the effectiveness of your ideas?
 
+View my solution [HERE](https://github.com/RuthyYao/8-Weeks-SQL-Challenge/blob/main/Case%20Study%20%233%20Foodie%20Fi/Solutions/D.%20Outside%20The%20Box%20Questions.md).
+
 ---
 ## 🚀 My Solution
-* View the complete syntax [HERE](https://github.com/qanhnn12/8-Week-SQL-Challenge/tree/main/Case%20Study%20%233%20-%20Foodie-Fi/Syntax).
-* View the result and explanation [HERE](https://github.com/qanhnn12/8-Week-SQL-Challenge/tree/main/Case%20Study%20%233%20-%20Foodie-Fi/Solution).
+* View the complete syntax [HERE](https://github.com/RuthyYao/8-Weeks-SQL-Challenge/tree/main/Case%20Study%20%233%20Foodie%20Fi/Syntax).
+* View the result and explanation [HERE](https://github.com/RuthyYao/8-Weeks-SQL-Challenge/tree/main/Case%20Study%20%233%20Foodie%20Fi/Solutions).
