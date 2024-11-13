@@ -45,7 +45,7 @@ Foodie-Fi started the video streaming service that only had food related content
 | 19          | 0       | 2020-06-22 | trial         | 0.00    |
 | 19          | 2       | 2020-06-29 | pro monthly   | 19.90   |
 
-View my solution [HERE](#Solutions-A.-Customer-Journey.md).
+View my solution [HERE](https://github.com/RuthyYao/8-Weeks-SQL-Challenge/blob/main/Case%20Study%20%233%20Foodie%20Fi/Solutions/A.%20Customer%20Journey.md).
 
 ---
 ### B. Data Analysis Questions
