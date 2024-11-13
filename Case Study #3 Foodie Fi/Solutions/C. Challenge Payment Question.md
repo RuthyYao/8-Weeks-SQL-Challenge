@@ -111,4 +111,4 @@ SELECT * FROM payment LIMIT 10;
 | 16          | 1       | basic monthly | 2020-06-07   | 9.90   | 1              |
 
 ---
-My solution for **[D. Outside The Box Questions](https://github.com/qanhnn12/8-Week-SQL-Challenge/blob/main/Case%20Study%20%233%20-%20Foodie-Fi/Solution/D.%20Outside%20The%20Box%20Questions.md)**.
+My solution for **[D. Outside The Box Questions](https://github.com/RuthyYao/8-Weeks-SQL-Challenge/blob/main/Case%20Study%20%233%20Foodie%20Fi/Solutions/D.%20Outside%20The%20Box%20Questions.md)**.
