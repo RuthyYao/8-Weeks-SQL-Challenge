@@ -1,4 +1,17 @@
+# Case Study #3 - Foodie-Fi
+## A. Customer Journey
+
 Based off the 8 sample customers provided in the sample from the subscriptions table, write a brief description about each customer’s onboarding journey.
+
+```TSQL
+SELECT 
+	subscriptions.*,
+	plans.plan_name,
+	plans.price
+FROM subscriptions
+JOIN plans ON subscriptions.plan_id = plans.plan_id
+WHERE customer_id IN (1, 2, 11, 13, 15, 16, 18, 19);
+```
 
 | customer_id | plan_id | start_date | plan_name     | price   |
 |-------------|---------|------------|---------------|---------|
@@ -22,15 +35,7 @@ Based off the 8 sample customers provided in the sample from the subscriptions t
 | 19          | 0       | 2020-06-22 | trial         | 0.00    |
 | 19          | 2       | 2020-06-29 | pro monthly   | 19.90   |
 
-```TSQL
-SELECT 
-	subscriptions.*,
-	plans.plan_name,
-	plans.price
-FROM subscriptions
-JOIN plans ON subscriptions.plan_id = plans.plan_id
-WHERE customer_id IN (1, 2, 11, 13, 15, 16, 18, 19);
-```
+
 
 * Customer 1 - signed up to 7-day free trial on 01/08/2020. After that time, he/she didn't cancel the subsciption, so the system automatically upgraded it to basic monthly plan on 08/08/2020.
 
