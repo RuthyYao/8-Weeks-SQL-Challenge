@@ -53,3 +53,5 @@ WHERE customer_id IN (1, 2, 11, 13, 15, 16, 18, 19);
 
 * Customer 19 - signed up to 7-day free trial on 22/06/2020. After that time, he/she upgraded the subscription to pro monthly plan on 29/06/2020. After 2 months using that plan, he/she upgraded to pro annual plan on 29/08/2020.
 <br>
+---
+My solution for **[B. Data Analysis Questions](https://github.com/qanhnn12/8-Week-SQL-Challenge/blob/main/Case%20Study%20%233%20-%20Foodie-Fi/Solution/B.%20Data%20Analysis%20Questions.md)**.
