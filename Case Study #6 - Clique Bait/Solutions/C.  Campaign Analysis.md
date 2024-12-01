@@ -127,7 +127,7 @@ WHERE campaign_name IS NOT NULL
 |---------------------|----------------------|---------------------|---------------|
 | 15.3213             | 8.5529               | 5.0482              | 85.0          |
 
-#### Customer Sub-group 1 - Received impressions and clicked the impression (impression > 0 AND click > 0)
+##### Customer Sub-group 1 - Received impressions and clicked the impression (impression > 0 AND click > 0)
  The number of customers and visits in this group.
  ```
  SELECT 
@@ -165,7 +165,7 @@ WHERE campaign_name IS NOT NULL
 
 
 
-#### Customer Sub-group 2 - Received impressions but didn't click the impression
+##### Customer Sub-group 2 - Received impressions but didn't click the impression
  The number of customers and visits in this group.
 
 ```
@@ -221,7 +221,7 @@ WHERE campaign_name IS NOT NULL
 | 7.6200              | 6.2459               | 2.2295              | 65.6          |
 
 
-#### Customer Group 2 - didn't receive impressions
+##### Customer Group 2 - didn't receive impressions
 
 The number of customers in this group.
 ```
