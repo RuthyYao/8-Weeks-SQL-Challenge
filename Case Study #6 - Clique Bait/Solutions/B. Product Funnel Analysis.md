@@ -295,4 +295,4 @@ FROM product_summary;
 
 
 ---
-My solution for **[C. Campaign Analysis]()**.
+My solution for **[C. Campaign Analysis](https://github.com/RuthyYao/8-Weeks-SQL-Challenge/blob/main/Case%20Study%20%236%20-%20Clique%20Bait/Solutions/C.%20%20Campaign%20Analysis.md)**.
