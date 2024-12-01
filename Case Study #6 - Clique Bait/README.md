@@ -15,7 +15,7 @@ Clique Bait, an online seafood shop wants to gain detailed insights into their s
 ---
 ## Entity Relationship Diagram
 <p align="center">
-<img src="https://github.com/RuthyYao/8-Weeks-SQL-Challenge/blob/main/images/case-study-6-erd.png" align="center" width="500" height="250" >
+<img src="https://github.com/RuthyYao/8-Weeks-SQL-Challenge/blob/main/images/case-study-6-erd.PNG" align="center" width="500" height="250" >
 
 ---
 ## Case Study Questions
