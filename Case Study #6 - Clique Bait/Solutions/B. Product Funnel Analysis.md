@@ -224,9 +224,9 @@ FROM category_summary;
 
 Luxury products has higher fallout rate than the other two categories.
 
-Use your 2 new output tables - answer the following questions:
+Use the above output tables - answer the following questions:
 
-### 1. Which product had the most views, cart adds and purchases?
+#### 1. Which product had the most views, cart adds and purchases?
 
 ```SQL
 SELECT
@@ -240,7 +240,7 @@ SELECT
 | Oyster      | Lobster          | Lobster        |
 
    
-### 2. Which product was most likely to be abandoned?
+#### 2. Which product was most likely to be abandoned?
 
 ```SQL
 SELECT
@@ -254,7 +254,7 @@ LIMIT 1;
 |--------------|----------------|------------------|-------|-------------|-----------|-----------|
 | 4            | Russian Caviar | Luxury           | 1563  | 946         | 249       | 697       |
 
-### 3. Which product had the highest view to purchase percentage?
+#### 3. Which product had the highest view to purchase percentage?
 
 ```SQL
 SELECT
@@ -269,7 +269,7 @@ LIMIT 1;
 |-----------|-----------------|
 | Lobster   | 48.74           |
 
-### 4.  What is the average conversion rate from view to cart add?
+#### 4.  What is the average conversion rate from view to cart add?
 
 ```SQL
 SELECT 
@@ -281,7 +281,7 @@ FROM product_summary;
 |-----------------|
 | 60.95           |
 
-### 5.What is the average conversion rate from cart add to purchase?
+#### 5.What is the average conversion rate from cart add to purchase?
 
 ```SQL
 SELECT 
