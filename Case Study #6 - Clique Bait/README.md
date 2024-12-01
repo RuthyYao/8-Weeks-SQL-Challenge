@@ -33,8 +33,9 @@ Using the available datasets - answer the following questions using a single que
 8. What is the number of views and cart adds for each product category?
 9. What are the top 3 products by purchases?
 
-View my solutions [Here]().
+View my solutions [Here](https://github.com/RuthyYao/8-Weeks-SQL-Challenge/blob/main/Case%20Study%20%236%20-%20Clique%20Bait/Solutions/A.%20Digital%20Analysis.md).
 
+---
 ### B. Product Funnel Analysis
 
 Using a single SQL query - create a new output table which has the following details:
@@ -54,5 +55,34 @@ Use your 2 new output tables - answer the following questions:
 * What is the average conversion rate from view to cart add?
 * What is the average conversion rate from cart add to purchase?
 
-View my solutions [Here]().
+View my solutions [Here](https://github.com/RuthyYao/8-Weeks-SQL-Challenge/blob/main/Case%20Study%20%236%20-%20Clique%20Bait/Solutions/B.%20Product%20Funnel%20Analysis.md).
 
+---
+### C. Campaign Analysis
+
+Generate a table that has 1 single row for every unique visit_id record and has the following columns:
+
+* user_id
+* visit_id
+* visit_start_time: the earliest event_time for each visit
+* page_views: count of page views for each visit
+* cart_adds: count of product cart add events for each visit
+* purchase: 1/0 flag if a purchase event exists for each visit
+* campaign_name: map the visit to a campaign if the visit_start_time falls between the start_date and end_date
+* impression: count of ad impressions for each visit
+* click: count of ad clicks for each visit
+* (Optional column) cart_products: a comma separated text value with products added to the cart sorted by the order they were added to the cart (hint: use the sequence_number)
+
+Some ideas you might want to investigate further include:
+
+* Identifying users who have received impressions during each campaign period and comparing each metric with other users who did not have an impression event
+* Does clicking on an impression lead to higher purchase rates?
+* What is the uplift in purchase rate when comparing users who click on a campaign impression versus users who do not receive an impression? What if we compare them with users who just an impression but do not click?
+* What metrics can you use to quantify the success or failure of each campaign compared to eachother?
+
+View my solutions [Here](https://github.com/RuthyYao/8-Weeks-SQL-Challenge/blob/main/Case%20Study%20%236%20-%20Clique%20Bait/Solutions/C.%20%20Campaign%20Analysis.md).
+
+---
+## My Solution
+* View the complete syntax [HERE](https://github.com/RuthyYao/8-Weeks-SQL-Challenge/tree/main/Case%20Study%20%236%20-%20Clique%20Bait/Syntax).
+* View the result and explanation [HERE](https://github.com/RuthyYao/8-Weeks-SQL-Challenge/tree/main/Case%20Study%20%236%20-%20Clique%20Bait/Solutions).
