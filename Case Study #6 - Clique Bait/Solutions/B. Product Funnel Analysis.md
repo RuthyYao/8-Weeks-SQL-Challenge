@@ -1,5 +1,5 @@
 # Case Study #6 - Clique Bait
-## B. PRoduct Funnel Analysis
+## B. Product Funnel Analysis
 
 Using a single SQL query - create a new output table which has the following details:
 
@@ -292,3 +292,7 @@ FROM product_summary;
 | conversion_rate |
 |-----------------|
 | 75.93           |
+
+
+---
+My solution for **[C. Campaign Analysis]()**.
