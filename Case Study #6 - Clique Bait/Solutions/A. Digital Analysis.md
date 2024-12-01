@@ -265,3 +265,5 @@ LIMIT 3;
 | Oyster    | Shellfish        | 726       |
 | Crab      | Shellfish        | 719       |
 
+---
+My solution for **[B. Product Funnel Analysis](https://github.com/RuthyYao/8-Weeks-SQL-Challenge/blob/main/Case%20Study%20%236%20-%20Clique%20Bait/Solutions/B.%20Product%20Funnel%20Analysis.md)**.
