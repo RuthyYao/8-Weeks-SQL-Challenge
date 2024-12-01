@@ -295,7 +295,7 @@ Now put all the four customer groups together.
 
 ### 3. Compare the performance between the three campaigns.
 
-I'll use ad click rate and products purchase rate to quantify the successsor failure of each campaign. 
+I'll use `ad click rate` and `products purchase rate` to quantify the successs or failure of each campaign. 
 
 ```SQL
 WITH campaign_performance AS(
