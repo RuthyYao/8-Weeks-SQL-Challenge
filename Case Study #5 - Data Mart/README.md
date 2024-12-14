@@ -1,3 +1,19 @@
+# Case Study # 6 - Data Mart
+<p align="center">
+<img src="https://github.com/RuthyYao/8-Weeks-SQL-Challenge/blob/main/images/5.png" align="center" width="400" height="400" >
+
+## Table of Contents
+* [Bussiness Task](#bussiness-task)
+* [Entity Relationship Diagram](#entity-relationship-diagram)
+* [Case Study Questions](#case-study-questions)
+* [My Solution](#my-solution)
+
+---
+## Bussiness Task
+Data Mart is an online supermarket that specializes in fresh produce. In June 2020 - large scale supply changes were made at Data Mart. All Data Mart products now use sustainable packaging methods in every single step from the farm all the way to the customer.
+
+The management wants to quantify the impact of this change on the sales performance for Data Mart and it’s separate business areas.
+
 ## 1. Data Cleaning
 
 In a single query, perform the following steps that created a new table in the Data Mart schema named `clean_weekly_sale`.
