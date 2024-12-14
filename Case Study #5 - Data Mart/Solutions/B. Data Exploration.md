@@ -267,4 +267,4 @@ ORDER BY calendar_year, platform;
 * For finding the average transaction size for each year by platform accurately, it is recommended to use avg_transaction_group.
 
 ---
-My solution for **[C. Event Analysis](https://github.com/RuthyYao/8-Weeks-SQL-Challenge/blob/main/Case%20Study%20%236%20-%20Clique%20Bait/Solutions/C.%20%20Campaign%20Analysis.md)**.
+My solution for **[C. Event Analysis](https://github.com/RuthyYao/8-Weeks-SQL-Challenge/blob/main/Case%20Study%20%235%20-%20Data%20Mart/Solutions/C.%20Event%20Analysis.md)**.
