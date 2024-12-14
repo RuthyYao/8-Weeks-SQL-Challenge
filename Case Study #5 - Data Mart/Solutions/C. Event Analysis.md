@@ -61,7 +61,7 @@ FROM cte;
 
 ### 3. How do the sale metrics for these 2 periods before and after compare with the previous years in 2018 and 2019?
 
--- Part 1: How did the sales change for 4 weeks before and after the event in 2020 compare with the same period in 2019 and 2018?
+##### Part 1: How did the sales change for 4 weeks before and after the event in 2020 compare with the same period in 2019 and 2018?
 
 ``` SQL
 SET @weeknum = (
@@ -96,7 +96,7 @@ ORDER BY calendar_year;
 | 2019          | 2249989796   | 2252326390  | 2336594      | 0.10       |
 | 2020          | 2345878357   | 2318994169  | -26884188    | -1.15      |
 	
--- Part 2: How did the sales change for 12 weeks before and after the event in 2020 compare with the same period in 2019 and 2018?
+##### Part 2: How did the sales change for 12 weeks before and after the event in 2020 compare with the same period in 2019 and 2018?
 
 ``` SQL
 SET @weeknum = (
