@@ -130,3 +130,5 @@ ORDER BY calendar_year;
 | 2020          | 7126273147   | 6973947753  | -152325394   | -2.14      |
 
 ---
+---
+My solution for **[D. Bonus Question](https://github.com/RuthyYao/8-Weeks-SQL-Challenge/blob/main/Case%20Study%20%235%20-%20Data%20Mart/Solutions/D.%20Bonus%20Questions.md)**.
