@@ -1,5 +1,5 @@
 # Case Study #5 - Data Mart
-## 1. Data Cleaning
+## A. Data Cleaning
 
 Solution Structure:
 
@@ -59,3 +59,6 @@ Running the above query will generate below table.
 | 2020-08-31    | 35              | 8                | 2020              | F1          | Young Adults | Families        | ASIA       | Shopify      | Existing          | 371417    | 2158             | 172.11              |
 | 2020-08-31    | 35              | 8                | 2020              | F2          | Middle Aged  | Families        | AFRICA     | Shopify      | New               | 49557     | 318              | 155.84              |
 | 2020-08-31    | 35              | 8                | 2020              | C3          | Retirees     | Couples         | AFRICA     | Retail       | New               | 3888162   | 111032           | 35.02               |
+
+---
+My solution for **[B. Data Exploration](https://github.com/RuthyYao/8-Weeks-SQL-Challenge/new/main/Case%20Study%20%235%20-%20Data%20Mart/Solutions)**.
