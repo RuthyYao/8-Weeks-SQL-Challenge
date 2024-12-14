@@ -93,6 +93,21 @@ Using this analysis approach - answer the following questions:
 View my solutions [Here](https://github.com/RuthyYao/8-Weeks-SQL-Challenge/blob/main/Case%20Study%20%235%20-%20Data%20Mart/Solutions/C.%20Event%20Analysis.md).
 
 ---
+### D. Bonus Question
+
+Which areas of the business have the highest negative impact in sales metrics performance in 2020 for the 12 week before and after period?
+
+* region
+* platform
+* age_band
+* demographic
+* customer_type
+
+Do you have any further recommendations for Danny’s team at Data Mart or any interesting insights based off this analysis?
+
+View my solutions [Here](https://github.com/RuthyYao/8-Weeks-SQL-Challenge/blob/main/Case%20Study%20%235%20-%20Data%20Mart/Solutions/D.%20Bonus%20Questions.md).
+
+---
 ## My Solution
 * View the complete syntax [HERE](https://github.com/RuthyYao/8-Weeks-SQL-Challenge/tree/main/Case%20Study%20%235%20-%20Data%20Mart/Syntax).
 * View the result and explanation [HERE](https://github.com/RuthyYao/8-Weeks-SQL-Challenge/tree/main/Case%20Study%20%235%20-%20Data%20Mart/Solutions).
