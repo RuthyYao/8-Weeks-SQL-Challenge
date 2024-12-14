@@ -61,4 +61,4 @@ Running the above query will generate below table.
 | 2020-08-31    | 35              | 8                | 2020              | C3          | Retirees     | Couples         | AFRICA     | Retail       | New               | 3888162   | 111032           | 35.02               |
 
 ---
-My solution for **[B. Data Exploration](https://github.com/RuthyYao/8-Weeks-SQL-Challenge/new/main/Case%20Study%20%235%20-%20Data%20Mart/Solutions)**.
+My solution for **[B. Data Exploration](https://github.com/RuthyYao/8-Weeks-SQL-Challenge/blob/main/Case%20Study%20%235%20-%20Data%20Mart/Solutions/B.%20Data%20Exploration.md)**.
