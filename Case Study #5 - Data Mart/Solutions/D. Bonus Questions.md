@@ -4,7 +4,7 @@
 * [Solutions](#solutions)
 * [Insights](#insights)
 
-### Solutioins
+### Solutions
 
 * First define the variable week_number of 2020-06-15 
 
@@ -18,7 +18,7 @@ SET @weeknum = (
 
 * Next, apply the declared variable for the following analysis.
 
-##### 1. Sales changes by region
+#### 1. Sales changes by region
 
 ```SQL
 WITH SalesChange AS(
@@ -176,3 +176,11 @@ ORDER BY pct_change;
 * Further analysis should be taken to understand why New customers were interested in sustainable packages.
 
 ### Insights
+
+* Region wise, Europe sees sales increase whereas all other regions are negative impacted with Asia and Oceania suffering the most significant decline in sales. This could be due to wider public awareness of enviromental impact from plastics in Eruope than Asia and Oceania. Recommended that the management team allows for longer transition period - offering both plastic and sustainable packages at the same in the most negatively impacted regions such as Asia and Oceania for at least 3 months.
+
+* Sales on New Customers are increasing whereas Guests see the most decline in sales followed by existing customers. This reflects the difficulty in changing customers' shopping bag habitual. However, the management team could implement some effective measures to help customer adapt to the new norm, such as offering a transition period in which both plastic and sustainable shopping bags are offered, or providing some incentives for using sustainable packages. These will help minimize the sales impact from the change.
+
+* The data also shows that Middle age and family are the most impacted customer groups. It is advisable that Data Mart release some educational programs and or customer engagement activities targeting kids and families to uplift the their environmental awareness and responsibilities.
+
+*  While Shopify sales increased from the package change, the weight of the shopify channel is still relatively low comapred with the retail (97%). It is advisable that the management team focus more on managing the negtative impact on Retail sales, while seizing this package change opportunity to boost more online/shopify sales. FOr instance,  Data Mark could offer unique online pricing for some products or categories to attract more customers to shopify channel.
