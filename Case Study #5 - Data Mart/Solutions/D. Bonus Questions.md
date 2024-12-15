@@ -1,9 +1,10 @@
 # Case Study #5 - Data Mart
 ## D. Bonus Questions
 
+* [Solutions](#solutions)
+* [Insights](#insights)
 
-
-Solutioins
+### Solutioins
 
 * First define the variable week_number of 2020-06-15 
 
@@ -173,3 +174,5 @@ ORDER BY pct_change;
 
 * The sales for Guests and Existing customers decreased, but increased for New customers.
 * Further analysis should be taken to understand why New customers were interested in sustainable packages.
+
+### Insights
