@@ -1,4 +1,4 @@
-# Case Study # 6 - Data Mart
+# Case Study # 5 - Data Mart
 <p align="center">
 <img src="https://github.com/RuthyYao/8-Weeks-SQL-Challenge/blob/main/images/5.png" align="center" width="400" height="400" >
 
