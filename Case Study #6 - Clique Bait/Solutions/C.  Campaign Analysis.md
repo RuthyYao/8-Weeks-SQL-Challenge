@@ -109,18 +109,14 @@ WHERE campaign_name IS NOT NULL
 Calculate the key performance metrics for this user group.
 
 ```
-SET @received_and_clicked_users = 367;
-SET @received_and_clicked_visits = 599;
-
-SELECT 
-    SUM(page_views) / @received_and_clicked_users AS page_views_per_user,
-    SUM(page_views) / @received_and_clicked_visits AS page_views_per_visit,
+SELECT
+    SUM(page_views) / COUNT(DISTINCT user_id) page_views_per_user,
+    SUM(page_views) / COUNT(*) AS page_views_per_visit,
     AVG(cart_adds) AS cart_adds_per_visit,
-    ROUND(AVG(purchase)*100,1) AS purchase_rate
+    ROUND(100*AVG(purchase),1) AS purchase_rate
 FROM campaign_summary
 WHERE campaign_name IS NOT NULL
-	AND impression > 0
-    AND click > 0;
+	AND impression > 0; 
 ```
 
 | page_views_per_user | page_views_per_visit | cart_adds_per_visit | purchase_rate |
