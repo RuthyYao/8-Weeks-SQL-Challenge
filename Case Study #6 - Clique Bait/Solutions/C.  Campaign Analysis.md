@@ -248,8 +248,8 @@ WHERE campaign_name IS NOT NULL
 The performance metrics for this customer group.
 
 ```SQL
-SET @not_received_users = 56;
-SET @not_received_visits = 268;
+SET @not_received_users = 78;
+SET @not_received_visits = 368;
 
 SELECT 
     SUM(page_views) / @not_received_users AS page_views_per_user,
@@ -270,7 +270,7 @@ WHERE campaign_name IS NOT NULL
 
 | page_views_per_user | page_views_per_visit | cart_adds | purchase_rate |
 |---------------------|----------------------|-----------|---------------|
-| 26.4821             | 5.5336               | 1.1848    | 27.2          |
+| 19.0128             | 4.0299               | 1.1848    | 27.2          |
 
 
 Now put all the four customer groups together.
@@ -281,10 +281,10 @@ Now put all the four customer groups together.
 | Received impressions                   | 417            | 747        | 15.3213                 | 8.5529                   | 5.0482        | 85                  |
 | Received impressions and clicked       | 367            | 599        | 14.8038                 | 9.0701                   | 5.7162        | 89.6                |
 | Received impressions but didn't  click | 50             | 61         | 7.62                    | 6.2459                   | 2.2295        | 65.6                |
-| Didn't receive impressions             | 56             | 268        | 26.4821                 | 5.5336                   | 1.1848        | 27.2                |
+| Didn't receive impressions             | 78             | 368        | 19.0128                 | 4.0299                   | 1.1848        | 27.2                |
 
 
-* Receiving impression drove 3 more page views for each visit (8.6 vs 5.5 page_views) and 3.8 more products added to cart (average 5 cart-add vs 1.2). The purchase conversion rate is substantially higher in customer group who received impressions (85% vs 27.2%). 
+* Receiving impression drove 4.5 more page views for each visit (8.6 vs 4.0 page_views) and 3.8 more products added to cart (average 5 cart-add vs 1.2). The purchase conversion rate is substantially higher in customer group who received impressions (85% vs 27.2%). 
 
 * Customers who clicked the ad sees higher page views than customer who didn't click the ad (9.1 vs 6.2 page views per visit). Those who click the ad also has higher purchase rate than customer who didn't click the ad (89.6% vs 65.6%). Also note 88% of the users who received the promotion clicked the promotion ad with only 12% didn't click. 
 
