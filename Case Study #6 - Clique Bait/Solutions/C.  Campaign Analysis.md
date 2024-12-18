@@ -108,7 +108,7 @@ WHERE campaign_name IS NOT NULL
 
 Calculate the key performance metrics for this user group.
 
-```
+```SQL
 SELECT
     SUM(page_views) / COUNT(DISTINCT user_id) page_views_per_user,
     SUM(page_views) / COUNT(*) AS page_views_per_visit,
@@ -125,7 +125,7 @@ WHERE campaign_name IS NOT NULL
 
 ##### Customer Sub-group 1 - Received impressions and clicked the impression (impression > 0 AND click > 0)
  The number of customers and visits in this group.
- ```
+ ```SQL
  SELECT 
 	COUNT(DISTINCT user_id) AS users_count,
     	COUNT(DISTINCT visit_id) AS visits
@@ -164,7 +164,7 @@ WHERE campaign_name IS NOT NULL
 ##### Customer Sub-group 2 - Received impressions but didn't click the impression
  The number of customers and visits in this group.
 
-```
+```SQL
 Solution structure:
     -- use subquery to define the user group who received and click the impression.
     -- users who are not in the above group are those who received but not clicked the impression.
@@ -190,7 +190,7 @@ WHERE campaign_name IS NOT NULL
 
 
 The performance metrics for this customer group.
-```
+```SQL
 SET @received_not_clicked_users = 50;
 SET @received_not_clicked_visits = 61;
 
@@ -220,7 +220,7 @@ WHERE campaign_name IS NOT NULL
 ##### Customer Group 2 - didn't receive impressions
 
 The number of customers in this group.
-```
+```SQL
 solution structure:
 -- Note: We can't use impression = 0 as the condition to filter the data as a user could have visited the website for twice during the campaign but recieved the impression only once. In this case, when you count the users using the condition of impression is 0, this customer will be counted in which is incorrect.
 -- The right way is to use subquery to create a group who received impression; users who do not fall into this group will be the group who didn't receive impressions.
@@ -247,7 +247,7 @@ WHERE campaign_name IS NOT NULL
 
 The performance metrics for this customer group.
 
-```
+```SQL
 SET @not_received_users = 56;
 SET @not_received_visits = 268;
 
