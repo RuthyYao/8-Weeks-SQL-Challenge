@@ -29,14 +29,14 @@
 ```SQL
 CREATE TABLE campaign_summary
 SELECT
-	users.user_id,
-	e.visit_id,
+    users.user_id,
+    e.visit_id,
     MIN(e.event_time) AS visit_start_time,
     SUM(CASE WHEN ei.event_name = 'Page View' THEN 1 ELSE 0 END) AS page_views,
     SUM(CASE WHEN ei.event_name = 'Add to Cart' THEN 1 ELSE 0 END) AS cart_adds,
-	SUM(CASE WHEN ei.event_name = 'Purchase' THEN 1 ELSE 0 END) AS purchase,
+    SUM(CASE WHEN ei.event_name = 'Purchase' THEN 1 ELSE 0 END) AS purchase,
     c.campaign_name,
-	SUM(CASE WHEN ei.event_name = 'Ad Impression' THEN 1 ELSE 0 END) AS impression,
+    SUM(CASE WHEN ei.event_name = 'Ad Impression' THEN 1 ELSE 0 END) AS impression,
     SUM(CASE WHEN ei.event_name = 'Ad Click' THEN 1 ELSE 0 END) AS click,
     GROUP_CONCAT(CASE WHEN ei.event_name = 'Add to Cart' THEN page_name ELSE NULL END ORDER BY e.sequence_number) AS cart_products
 FROM events AS e
@@ -92,9 +92,9 @@ Some ideas you might want to investigate further include:
 
 The number of customer and the visit count in this group.
 
-```
+``` SQL
 SELECT 
-	COUNT(DISTINCT user_id) AS users_count,
+    COUNT(DISTINCT user_id) AS users_count,
     COUNT(DISTINCT visit_id) AS visits
 FROM campaign_summary
 WHERE campaign_name IS NOT NULL
@@ -151,8 +151,8 @@ SELECT
     ROUND(AVG(purchase)*100,1) AS purchase_rate
 FROM campaign_summary
 WHERE campaign_name IS NOT NULL
- 	AND impression > 0
-    	AND click > 0;
+      AND impression > 0
+      AND click > 0;
 ```
 
 | page_views_per_user | page_views_per_visit | cart_adds_per_visit | purchase_rate |
