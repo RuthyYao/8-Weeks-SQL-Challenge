@@ -334,3 +334,6 @@ LEFT JOIN campaign_purchase_rate
 * 25% Off campaign has the lowest click rate among the three campaigns. However the purchase rate is not too far off compared with the other two campaigns. 
 
 
+---
+
+I have designed a dashboard to communicate all the above insights. Please see part **[D. Dashboard](https://github.com/RuthyYao/8-Weeks-SQL-Challenge/blob/main/Case%20Study%20%236%20-%20Clique%20Bait/Solutions/D.%20Dashboard.md)**.
