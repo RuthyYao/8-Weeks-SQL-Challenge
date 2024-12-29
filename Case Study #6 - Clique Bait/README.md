@@ -83,6 +83,13 @@ Some ideas you might want to investigate further include:
 View my solutions [Here](https://github.com/RuthyYao/8-Weeks-SQL-Challenge/blob/main/Case%20Study%20%236%20-%20Clique%20Bait/Solutions/C.%20%20Campaign%20Analysis.md).
 
 ---
+### D. Dashboard
+
+On top of the above analysis using SQL, I designed a Power BI dashboard to help communicate all the above insights to Clique Bait's management team. The dahsboard allows the management team to track over time the business performance, identifying the trend and visualize the uplift from campaigns. 
+
+View my solutions [Here](https://github.com/RuthyYao/8-Weeks-SQL-Challenge/blob/main/Case%20Study%20%236%20-%20Clique%20Bait/Solutions/D.%20Dashboard.md).
+
+---
 ## My Solution
 * View the complete syntax [HERE](https://github.com/RuthyYao/8-Weeks-SQL-Challenge/tree/main/Case%20Study%20%236%20-%20Clique%20Bait/Syntax).
 * View the result and explanation [HERE](https://github.com/RuthyYao/8-Weeks-SQL-Challenge/tree/main/Case%20Study%20%236%20-%20Clique%20Bait/Solutions).
